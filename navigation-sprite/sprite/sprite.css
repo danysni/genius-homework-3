@@ -1,0 +1,21 @@
+.svg {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.sprite-navigation {
+  width: 352px;
+  height: 32px;
+  background-position: 0 0;
+}
+.sprite-rightArrow {
+  width: 32px;
+  height: 32px;
+  background-position: -384px 0;
+}
+.sprite-leftArrow {
+  width: 32px;
+  height: 32px;
+  background-position: -432px 0;
+}
+

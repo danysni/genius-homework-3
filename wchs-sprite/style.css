@@ -1,0 +1,28 @@
+.svg {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.sprite-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.sprite-whcs3 {
+  width: 1.1943359375em;
+}
+
+.sprite-wchs1 {
+  width: 0.9091796875em;
+}
+
+.sprite-wchs2 {
+  width: 1.2646484375em;
+}
