@@ -146,9 +146,7 @@ p {
 }
 
 .hero-logo-part {
-  max-width: 685px;
-  min-height: 410px;
-  margin-left: 210px;
+  margin-left: 105px;
 }
 
 .hero-section img {
@@ -159,8 +157,12 @@ p {
 }
 
 .hero-p {
+  position: relative;
+  right: 110px;
+  text-align: center;
   margin-top: 20px;
-  right: 35px;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .hero-title {
@@ -170,7 +172,6 @@ p {
   color: var(--color-brand-light);
   text-align: left;
   text-transform: capitalize;
-  margin-left: 5px;
 }
 
 .second-hero-title {
@@ -193,6 +194,7 @@ p {
   font-weight: 700;
   line-height: 1.16;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
 }
 
 .transformation-title span[lang="en"] {
@@ -294,7 +296,7 @@ header address a {
 
 /* About */
 .transformation-section {
-  padding: 88px 0;
+  padding: 96px 0;
   position: relative;
 }
 
@@ -307,7 +309,9 @@ header address a {
   z-index: 1;
 }
 
-.transformation-section .transformation-content {
+.transformation-content {
+  align-self: flex-start;
+  margin-top: 40px;
   flex: 1;
   min-width: 300px;
   display: flex;
@@ -391,7 +395,7 @@ header address a {
 
 /* Features */
 .whychooseus-section {
-  padding: 88px 0;
+  padding: 96px 0;
   background-color: #f8f8f8;
 }
 
@@ -414,7 +418,7 @@ header address a {
   font-size: 18px;
   line-height: 1.5;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: 381px;
+  width: 361px;
   height: 181px;
   display: flex;
   flex-direction: column;
@@ -444,7 +448,7 @@ header address a {
 
 /* Gallery */
 .procedures-section {
-  padding: 88px 0;
+  padding: 96px 0;
 }
 
 .procedures-section .container {
@@ -512,7 +516,7 @@ header address a {
 
 /* Map */
 .findus-section {
-  padding: 88px 0;
+  padding: 96px 0;
 }
 
 .findus-section .container {
@@ -524,6 +528,7 @@ header address a {
 
 .findus-title {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .findus-content {
@@ -577,7 +582,7 @@ header address a {
 /* Button */
 .button {
   font-size: 18px;
-  font-weight: 220px;
+  font-weight: 600;
   line-height: 1.5;
   padding: 16px 32px;
   border-radius: 32px;
@@ -598,7 +603,6 @@ header address a {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.76;
-  gap: 40px;
 }
 
 .whychooseus-text {
@@ -634,7 +638,7 @@ span[lang="en"] {
 .footer-section {
   background-color: #011c44;
   color: white;
-  padding: 50px 0;
+  padding: 96px 0;
   position: relative;
   overflow: hidden;
 }
@@ -702,12 +706,10 @@ span[lang="en"] {
 }
 
 .footer-section address {
-  text-align: center;
   font-style: normal;
 }
 
 .footer-address .footer-social {
-  justify-content: center;
 }
 
 .footer-section address a {
@@ -729,6 +731,7 @@ span[lang="en"] {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 16px;
 }
 
 .footer-copyright a,
