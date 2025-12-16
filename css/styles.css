@@ -406,14 +406,9 @@ header address a {
   flex-wrap: wrap;
 }
 
-.whychooseus-list li {
-  flex: 1;
-  min-width: 300px;
-}
-
 .whychooseus-list article {
   background: white;
-  padding: 30px 20px;
+  padding: 24px 32px;
   border-radius: 32px;
   font-size: 18px;
   line-height: 1.5;
@@ -428,22 +423,16 @@ header address a {
 }
 
 .whychooseus-text {
-  margin: 0;
   line-height: 1.33;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .wchs-icon {
-  width: 48px !important;
-  height: 48px !important;
-  margin-bottom: 16px;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
   --color1: var(--color-brand-light);
-  display: block;
-  max-width: 48px;
-  max-height: 48px;
-  min-width: 48px;
-  min-height: 48px;
 }
 
 /* Gallery */
@@ -554,7 +543,9 @@ header address a {
   padding: 48px 56px;
   color: var(--color-primary-light);
   width: 100%;
+  height: 100%;
   max-width: 423px;
+  max-height: 485px;
 }
 
 .findus-form-title {
@@ -600,12 +591,6 @@ header address a {
 
 /* Text */
 .transformation-text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.76;
-}
-
-.whychooseus-text {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.76;
@@ -663,8 +648,8 @@ span[lang="en"] {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 278px;
-  height: 213px;
+  width: 247px;
+  height: 152px;
   background-image: url("../images/footerimg.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -707,9 +692,6 @@ span[lang="en"] {
 
 .footer-section address {
   font-style: normal;
-}
-
-.footer-address .footer-social {
 }
 
 .footer-section address a {
@@ -785,6 +767,10 @@ span[lang="en"] {
   max-width: 725px;
   height: 100%;
   max-height: 725px;
+  background-image: url("../images/modal-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: var(--color-brand-dark);
   border-radius: 48px;
   padding-top: 42px;
@@ -802,10 +788,30 @@ span[lang="en"] {
   position: absolute;
   top: 40px;
   right: 40px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close-icon {
+  width: 32px;
+  height: 32px;
+  fill: var(--color-primary-light);
+  transition: fill 0.3s ease;
+}
+
+.modal-btn-close:hover .modal-close-icon {
+  fill: var(--color-brand-light);
 }
 
 .modal h2 {
-  margin-bottom: 32px;
+  margin-bottom: 12px;
   text-align: center;
   font-size: 64px;
   line-height: 1.5;
@@ -856,7 +862,7 @@ span[lang="en"] {
 .form-button {
   display: block;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-terms {
